@@ -243,8 +243,8 @@ body {
 @media screen and (min-width: 1200px) {
     body {
         display: grid;
-        grid-template-columns: 1.5fr 1.2fr 1.5fr;
-        grid-template-rows: 1.5fr 1.2fr 1.5fr;
+        grid-template-columns: 1.5fr 2fr 1.5fr;
+        grid-template-rows: 1.5fr 2fr 1.5fr;
         grid-template-areas: 
         ". . ."
         ". content ."
