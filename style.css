@@ -1,0 +1,414 @@
+/* Box Reset */
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.viewimg {
+    display: none;
+}
+
+
+/* Base of Body */
+
+body {
+    background: hsl(217, 54%, 11%);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    
+    width:fit-content;
+    height: fit-content;
+}
+/* An attempt to make the project as responsive as possible, kind of a success but it's really tricky and not optimised */
+@media screen and (min-width: 280px) {
+    body {
+        
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -5%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        
+    
+    
+    }
+}
+
+
+
+@media screen and (min-width: 375px) {
+    body {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -10%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        margin-top: -5%;
+    
+    
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 414px) {
+    body {
+        margin-top: 5%;
+        margin-bottom: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -10%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        margin-top: -5%;
+    
+    
+    }
+}
+
+
+
+
+@media screen and (min-height: 740px) {
+    body {
+        margin-top: 5%;
+        margin-bottom: 5%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -10%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        margin-top: -5%;
+    
+    
+    }
+}
+
+
+@media screen and (min-height: 1040px) {
+    body {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -30%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+    
+    
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    body {
+        display: grid;
+        grid-template-columns: 1.5fr 1.5fr 1.5fr;
+        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-areas: 
+        ". . ."
+        ". content ."
+        ". . .";
+        margin-top: 55%;
+    }
+
+
+
+
+
+
+
+
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -30%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+    
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Setup of the container containing all of the other objets */
+
+.container {
+    background: hsl(216, 50%, 16%);
+    grid-area: content;
+    
+    font-family: 'Outfit', sans-serif;
+    border-radius: 2.5%;
+
+}
+
+
+
+
+/* The main pic */
+
+
+.mainimg {
+    width: 80%;
+    height: 80%;
+    margin-top: 20px;
+    border-radius: 2.5%;
+}
+
+.mainpic {
+    display: flex;
+    justify-content: center;
+    align-content: middle;
+    margin-bottom: 5%;
+    
+    
+}
+
+
+/* The text */
+
+.title {
+    margin-left: 10%;
+    color: hsl(0, 0%, 100%);
+    font-size: 1.8em;
+    margin-bottom: 5%;
+    font-weight: bolder;
+    
+
+}
+.infos {
+    margin-left: 10%;
+    color: hsl(215, 51%, 70%);
+    font-size: 1.3em;
+    
+    width: 80%;
+    font-weight: bold;
+}
+
+
+
+
+/* The price and remaining time container */
+
+
+
+.priceandtime {
+    display: grid;
+    grid-template-columns: 0.1fr 0.3fr 1fr 1fr 0.3fr 1fr 0.2fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: 
+    ". MoneyLogo Money . TimeLogo Time .";
+}
+
+
+/* The remaining time */
+
+
+
+.timeleft {
+    grid-area: Time;
+    font-size: 1.1em;
+
+    font-weight: bold;
+    color: hsl(215, 51%, 70%);
+    display: flex;
+    align-self: center;
+    justify-self: left;
+    margin-left: 15%;
+}
+.clockimg {
+    grid-area: TimeLogo;
+
+    display: flex;
+    align-self: center;
+    justify-self: right;
+    
+}
+
+
+
+/* The price */
+.priceimg {
+    grid-area: MoneyLogo;
+    display: flex;
+    align-self: center;
+    justify-self: right;
+}
+
+.price {
+    grid-area: Money;
+    font-size: 1.1em;
+    font-weight: bold;
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-self: center;
+    justify-self: left;
+    margin-left: 15%;
+}
+
+
+/* The attribution container */
+
+
+
+.other {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 1fr 1fr 0.5fr;
+    grid-template-rows: 0.1fr 0.3fr;
+    grid-template-areas: 
+    ". separator separator separator ."
+    ". attributionimg attributiontext attributiontext2 .";
+}
+
+
+/* The attribution elements, completed in the responsive block */
+
+.attributionimg {
+    grid-area: attributionimg;
+    width: 40%;
+    height: 80%;
+    border-radius: 50%;
+    border: 1.5px solid white;
+    display: flex;
+    justify-self: left;
+    align-self: center;
+    margin-top: -15%;
+    margin-left: -20%;
+    margin-bottom: 15%;
+}
+.attributiontext {
+    grid-area: attributiontext;
+    color: hsl(215, 51%, 70%);
+    font-size: 1.2em;
+    display: flex;
+    justify-self: left;
+    align-self: center;
+    margin-top: -15%;
+    margin-left: -45%;
+
+}
+
+
+/* ----- */
