@@ -25,7 +25,15 @@ body {
 /* An attempt to make the project as responsive as possible, kind of a success but it's really tricky and not optimised */
 @media screen and (min-width: 280px) {
     body {
-        
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
     }
 
     .attributiontext2 {
@@ -36,7 +44,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -5%;
+        margin-left: -55%;
     }
 
     .separation {
@@ -57,10 +65,15 @@ body {
 
 @media screen and (min-width: 375px) {
     body {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
     }
 
     .attributiontext2 {
@@ -71,7 +84,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -10%;
+        margin-left: -55%;
     }
 
     .separation {
@@ -94,10 +107,15 @@ body {
 
 @media screen and (min-width: 414px) {
     body {
-        margin-top: 5%;
-        margin-bottom: 40%;
-        margin-left: 5%;
-        margin-right: 5%;
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
     }
 
     .attributiontext2 {
@@ -108,7 +126,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -10%;
+        margin-left: -55%;
     }
 
     .separation {
@@ -128,12 +146,18 @@ body {
 
 
 
-@media screen and (min-height: 740px) {
+@media screen and (min-height: 720px) {
     body {
-        margin-top: 5%;
-        margin-bottom: 5%;
-        margin-left: 5%;
-        margin-right: 5%;
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
+        margin-left: 10%;
     }
 
     .attributiontext2 {
@@ -144,7 +168,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -10%;
+        margin-left: -55%;
     }
 
     .separation {
@@ -160,14 +184,144 @@ body {
     
     }
 }
+
+
+
+
+
+@media screen and (min-height: 738px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
+        margin-left: 0%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -55%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        margin-top: -5%;
+    
+    
+    }
+}
+
+@media screen and (min-height: 800px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
+        margin-left: 0%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -55%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        margin-top: -5%;
+    
+    
+    }
+}
+
+
+@media screen and (min-height: 914px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
+        margin-left: 0%;
+    }
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -55%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+        margin-top: -5%;
+    
+    
+    }
+}
+
+
+
 
 
 @media screen and (min-height: 1040px) {
     body {
-        margin-top: 20%;
-        margin-bottom: 20%;
-        margin-left: 20%;
-        margin-right: 20%;
+        background-color: hsl(233, 47%, 7%);
+        display: grid;
+        font-family: 'Outfit', sans-serif;
+        grid-template-rows: 0.5fr 1.5fr 0.5fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "."
+        "content"
+        ".";
     }
 
     .attributiontext2 {
@@ -178,7 +332,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -30%;
+        margin-left: -55%;
     }
 
     .separation {
@@ -197,14 +351,16 @@ body {
 
 @media screen and (min-width: 1000px) {
     body {
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Outfit', sans-serif;
         display: grid;
-        grid-template-columns: 1.5fr 1.5fr 1.5fr;
-        grid-template-rows: 1fr 2fr 1fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 0.2fr;
         grid-template-areas: 
         ". . ."
         ". content ."
         ". . .";
-        margin-top: 55%;
+        margin-left: 20%;
     }
 
 
@@ -223,7 +379,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -30%;
+        margin-left: -50%;
     }
 
     .separation {
@@ -242,20 +398,21 @@ body {
 
 @media screen and (min-width: 1200px) {
     body {
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Outfit', sans-serif;
         display: grid;
-        grid-template-columns: 1.5fr 2fr 1.5fr;
-        grid-template-rows: 1.5fr 2fr 1.5fr;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 0.2fr;
         grid-template-areas: 
         ". . ."
         ". content ."
         ". . .";
-        
+        margin-left: 25%;
     }
 
 
 
-
-
+    
 
 
 
@@ -268,7 +425,7 @@ body {
         display: flex;
         align-self: center;
         margin-top: -15%;
-        margin-left: -30%;
+        margin-left: -60%;
     }
 
     .separation {
@@ -282,10 +439,62 @@ body {
     
     
     }
+
+
+
+    
 }
 
 
 
+@media screen and (min-width: 1300px) {
+    body {
+        background-color: hsl(233, 47%, 7%);
+        font-family: 'Outfit', sans-serif;
+        display: grid;
+        grid-template-rows: 0.5fr 0.5fr 0.5fr;
+        grid-template-columns: 0.5fr 2fr 0.2fr;
+        grid-template-areas: 
+        ". . ."
+        ". content ."
+        ". . .";
+        margin-left: 35%;
+    }
+
+
+
+    
+
+
+
+
+    .attributiontext2 {
+        grid-area: attributiontext2;
+        color: hsl(0, 0%, 100%);
+        font-size: 1.2em;
+        font-weight: bolder;
+        display: flex;
+        align-self: center;
+        margin-top: -15%;
+        margin-left: -60%;
+    }
+
+    .separation {
+        grid-area: separator;
+        color: hsl(215, 32%, 27%);
+        font-size: 1.6em;
+        display: flex;
+        justify-self: center;
+        align-self: center;
+        letter-spacing: -1px;
+    
+    
+    }
+
+
+
+    
+}
 
 
 
@@ -305,7 +514,11 @@ body {
     
     font-family: 'Outfit', sans-serif;
     border-radius: 2.5%;
+    min-width: 433.8px;
+    max-width: 433.8px;
 
+    min-height: 679.2px;
+    max-height: 679.2px;
 }
 
 
@@ -450,7 +663,7 @@ body {
     justify-self: left;
     align-self: center;
     margin-top: -15%;
-    margin-left: -45%;
+    margin-left: -55%;
 
 }
 
